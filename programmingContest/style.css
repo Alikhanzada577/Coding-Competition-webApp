@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  /* Set the width to 100% to make images span the entire width of the card */
+  height: 200px;
+  /* Set the desired height for all the images (adjust as needed) */
+  object-fit: cover;
+  /* This property ensures the image maintains its aspect ratio and covers the entire container */
+}
+
+.jumbotron {
+  background-image: url(https://i.pinimg.com/originals/92/05/71/92057130e67ca2fe18a6b430bb05aefb.png);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  /* Set the text color to white or any other color that suits your image */
+}
+
+.jumbotron h1 {
+  text-align: center;
+  /* Center align the heading */
+}
